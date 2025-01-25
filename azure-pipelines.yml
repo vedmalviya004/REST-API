@@ -8,8 +8,7 @@ trigger:
 - main
 
 pool:
-  name: Default  # Use your default agent pool
-  vmImage: windows-latest  # Specify the VM image you want (e.g., windows-latest or ubuntu-latest)
+  vmImage: ubuntu-latest  # Or windows-latest for Windows agents
 
 
 steps:
