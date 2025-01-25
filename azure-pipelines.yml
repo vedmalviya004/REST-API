@@ -8,7 +8,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest  # Or windows-latest for Windows agents
+  vmImage: windows-latest  # Or windows-latest for Windows agents
 
 
 steps:
