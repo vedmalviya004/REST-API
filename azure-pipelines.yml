@@ -8,7 +8,9 @@ trigger:
 - main
 
 pool:
-  vmImage: windows-latest
+  name: Default  # Use your default agent pool
+  vmImage: windows-latest  # Specify the VM image you want (e.g., windows-latest or ubuntu-latest)
+
 
 steps:
 - task: Maven@3
